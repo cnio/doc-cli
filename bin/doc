@@ -1,0 +1,22 @@
+#!/usr/bin/env node
+var program = require('commander');
+var create = require('../lib/new');
+var dir = process.cwd();
+
+
+program.version('0.0.1');
+
+program
+	.command('help')
+	.description('Get help on doc-cli')
+	.action(function() {
+		program.outputHelp();
+	})
+
+program
+	.command('new')
+	.description('Create a new api document')
+	.option('-o, --output <dir>', 'here is some text')
+	.action(create);
+
+program.parse(process.argv);

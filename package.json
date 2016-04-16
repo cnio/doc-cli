@@ -1,0 +1,33 @@
+{
+  "name": "doc-cli",
+  "version": "0.0.1",
+  "description": "doc generator for nodejs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "doc": "./bin/doc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cnio/doc-cli.git"
+  },
+  "keywords": [
+    "cli",
+    "doc",
+    "api",
+    "generator"
+  ],
+  "author": "CNIO",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cnio/doc-cli/issues"
+  },
+  "homepage": "https://github.com/cnio/doc-cli#readme",
+  "dependencies": {
+    "commander": "^2.9.0",
+    "read": "^1.0.7",
+    "validate-request-types": "0.0.1"
+  }
+}
