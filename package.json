@@ -28,6 +28,7 @@
   "dependencies": {
     "async": "^1.5.2",
     "commander": "^2.9.0",
+    "q": "^1.4.1",
     "read": "^1.0.7",
     "validate-request-types": "0.0.1"
   }
