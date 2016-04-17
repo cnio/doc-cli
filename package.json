@@ -26,6 +26,7 @@
   },
   "homepage": "https://github.com/cnio/doc-cli#readme",
   "dependencies": {
+    "async": "^1.5.2",
     "commander": "^2.9.0",
     "read": "^1.0.7",
     "validate-request-types": "0.0.1"
