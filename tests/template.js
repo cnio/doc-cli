@@ -1,4 +1,4 @@
-var write2md = require('../lib/template');
+var template = require('../lib/template').template;
 var expect = require('chai').expect;
 var obj = {
     "name": "grant",
@@ -20,11 +20,14 @@ var obj = {
 ]
 };
 
-describe('# write2md', function() {
+var jsonstr = JSON.stringify(obj);
+describe('# template', function() {
     it('should return correct markdown string', function(done) {
-        write2md(obj, function (er, res) {
+        template(jsonstr, function (res) {
             var md = '#### grant\n';
-            expect(res).to.deep.equal(md);
+            var filename = 'grant.md';
+            expect(res.filename).to.deep.equal(filename);
+            expect(res.md.name).to.deep.equal(md);
             done()
         })
     })
