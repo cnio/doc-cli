@@ -26,6 +26,7 @@
   },
   "homepage": "https://github.com/cnio/doc-cli#readme",
   "dependencies": {
+    "colorful": "^2.1.0",
     "commander": "^2.9.0",
     "json2markdown": "^1.0.0",
     "json2md": "^1.5.0",
