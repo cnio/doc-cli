@@ -4,7 +4,7 @@ var obj = {
     "name": "grant",
     "type": "post",
     "url": "/api/wallet/batch",
-    "body": [
+    "params": [
     {
         "Name": "api_key",
         "Required": "true",
