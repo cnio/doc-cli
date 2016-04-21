@@ -1,6 +1,6 @@
 {
   "name": "doc-cli",
-  "version": "0.4.2",
+  "version": "0.4.3",
   "description": "doc generator for nodejs",
   "scripts": {
     "test": "mocha ./tests/template.js"
@@ -26,13 +26,14 @@
   "homepage": "https://github.com/cnio/doc-cli#readme",
   "dependencies": {
     "colorful": "^2.1.0",
+    "colors": "^1.1.2",
     "commander": "^2.9.0",
     "json2markdown": "^1.0.0",
     "json2md": "^1.5.0",
-    "read": "^1.0.7",
-    "validate-request-types": "0.0.3",
+    "promzard": "^0.3.0",
     "q": "^1.4.1",
-    "promzard": "^0.3.0"
+    "read": "^1.0.7",
+    "validate-request-types": "0.0.3"
   },
   "devDependencies": {
     "chai": "^3.5.0"

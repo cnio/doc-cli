@@ -3,15 +3,13 @@ var program = require('commander');
 var create = require('../lib/new');
 var dir = process.cwd();
 
-
-program.version('0.4.2');
-
+program.version('0.4.3');
 program
 	.command('help')
 	.description('Get help on doc-cli')
 	.action(function() {
 		program.outputHelp();
-	})
+	});
 
 program
 	.command('new')
