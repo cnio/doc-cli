@@ -1,6 +1,6 @@
 {
   "name": "doc-cli",
-  "version": "0.4.1",
+  "version": "0.4.2",
   "description": "doc generator for nodejs",
   "scripts": {
     "test": "mocha ./tests/template.js"
@@ -31,7 +31,8 @@
     "json2md": "^1.5.0",
     "read": "^1.0.7",
     "validate-request-types": "0.0.3",
-    "q": "^1.4.1"
+    "q": "^1.4.1",
+    "promzard": "^0.3.0"
   },
   "devDependencies": {
     "chai": "^3.5.0"
