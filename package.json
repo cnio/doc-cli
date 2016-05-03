@@ -1,6 +1,6 @@
 {
   "name": "doc-cli",
-  "version": "0.4.3",
+  "version": "0.4.5",
   "description": "doc generator for nodejs",
   "scripts": {
     "test": "mocha ./tests/template.js"
