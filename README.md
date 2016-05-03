@@ -2,6 +2,12 @@
 
 ![](https://travis-ci.org/cnio/doc-cli.svg?branch=master)
 [![npm version](https://badge.fury.io/js/doc-cli.svg)](https://badge.fury.io/js/doc-cli)
+[![NPM Downloads][downloads-image]][downloads-url]
+
+[npm-image]: https://img.shields.io/npm/v/doc-cli.svg
+[npm-url]: https://npmjs.org/package/doc-cli
+[downloads-image]: https://img.shields.io/npm/dm/doc-cli.svg
+[downloads-url]: https://npmjs.org/package/doc-cli
 
 > api document cli. You can easily write api document to markdown by using command-line, just type some keywords even nothing.
 
@@ -11,7 +17,7 @@ npm i doc-cli -g
 ```
 ## Usage
 
-### doc --help
+### doc -h
 
 ```
   Usage: doc [options] [command]
